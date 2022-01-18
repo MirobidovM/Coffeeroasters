@@ -180,10 +180,10 @@ img {
 
 .collection__name::before {
   content: "";
-  display: block;
   position: absolute;
   width: 1111px;
   height: 196px;
+  align-items: center;
   top: -100px;
   background: linear-gradient(
     180deg,
