@@ -1,0 +1,75 @@
+.collection__container {
+  position: relative;
+}
+
+.collection__name {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-size: 150px;
+  line-height: 72px;
+  margin: 0px;
+  margin-top: 136px;
+  text-align: center;
+  color: #83888f;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 252, 247, 0.0001) 0%,
+    #fefcf7 100%
+  );
+}
+
+.collection__name::before {
+  content: "";
+  position: absolute;
+  width: 1111px;
+  height: 196px;
+  align-items: center;
+  top: -100px;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 252, 247, 0.0001) 0%,
+    #fefcf7 100%
+  );
+}
+
+.collection__list {
+  @include reset-list;
+  @include flex;
+  justify-content: center;
+  margin-left: 85px;
+  margin-right: 85px;
+  margin-top: -20px;
+}
+
+.collection__item {
+  @include flex;
+  flex-direction: column;
+  margin-right: 27px;
+  margin-bottom: 25px;
+  z-index: 1;
+}
+
+.collection__item:nth-child(4n),
+.collection__item:last-child {
+  margin-right: 0;
+}
+
+.collection__item-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0px;
+  text-align: center;
+  margin-top: 70px;
+  $color-dark: #333d4b;
+}
+
+.collection__item-discripton {
+  line-height: 26px;
+  margin-top: 24px;
+  width: 255px;
+  text-align: center;
+  $color-dark: #333d4b;
+}

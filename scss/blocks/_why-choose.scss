@@ -1,0 +1,106 @@
+.why-choose__container {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.why-choose__name {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fefcf7;
+  margin-top: 100px;
+}
+
+.why-choose__discription {
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  width: 540px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-left: 370px;
+}
+
+.why-choose__container::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 1280px;
+  height: 577px;
+  background-color: #2c343e;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.why-choose__list {
+  @include reset-list;
+  @include flex;
+  margin-top: 56px;
+  width: 1110px;
+  margin-left: 85px;
+  margin-right: 85px;
+  justify-content: center;
+}
+
+.why-choose__item {
+  width: 350px;
+  margin-right: 30px;
+  background-color: #0e8784;
+  border-radius: 8px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.why-choose__item:nth-child(3n),
+.why-choose__item:last-child {
+  margin-right: 0px;
+}
+
+.why-choose__item--cacaoo {
+  background-image: url(../img/cacaoo.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 72px;
+}
+
+.why-choose__item--price {
+  background-image: url(../img/price.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 72px;
+  display: block;
+}
+
+.why-choose__item--truck {
+  background-image: url(../img/truck.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 72px;
+}
+
+.why-choose__list-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 200px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.why-choose__item-discription {
+  line-height: 26px;
+  margin-top: 24px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #fefcf7;
+  width: 255px;
+  margin-left: 47px;
+}
