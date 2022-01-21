@@ -1,5 +1,5 @@
 .hero__container {
-  background-image: url(../../img/about.png);
+  background-image: url(../img/about.jpg);
   @include bg-img;
   width: 1280px;
   padding: 137px 85px;
@@ -30,6 +30,6 @@
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
   .hero__container {
-    background-image: url(../img/about@2x.png);
+    background-image: url(../../img/about@2x.jpg);
   }
 }

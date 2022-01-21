@@ -20,7 +20,7 @@
 }
 
 .intro__container {
-  background-image: url(../img/intro-img.png);
+  background-image: url(../img/intro-img.jpg);
   @include bg-img;
   width: 1280px;
   height: 600px;
@@ -43,6 +43,6 @@
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
   .intro__container {
-    background-image: url(../img/intro-img@2x.png);
+    background-image: url(../img/intro-img@2x.jpg);
   }
 }

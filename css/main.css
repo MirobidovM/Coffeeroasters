@@ -509,7 +509,7 @@ img {
 }
 
 .intro__container {
-  background-image: url(../img/intro-img.png);
+  background-image: url(../img/intro-img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -529,7 +529,7 @@ img {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .intro__container {
-    background-image: url(../img/intro-img@2x.png);
+    background-image: url(../img/intro-img@2x.jpg);
   }
 }
 
@@ -844,7 +844,7 @@ img {
 }
 
 .hero__container {
-  background-image: url(../../img/about.png);
+  background-image: url(../img/about.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -872,7 +872,7 @@ img {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .hero__container {
-    background-image: url(../img/about@2x.png);
+    background-image: url(../../img/about@2x.jpg);
   }
 }
 
@@ -956,7 +956,7 @@ img {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .wrapper__container {
-    background-image: url(../../img/wrapper@2x.jpg);
+    background-image: url(../img/wrapper@2x.jpg);
   }
 }
 
