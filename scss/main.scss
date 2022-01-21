@@ -4,22 +4,3 @@
 @import "fonts";
 @import "general";
 @import "blocks/blocks";
-
-// ABOUT//
-
-.hero__container {
-  background-image: url(../img/about.jpg);
-  @include bg-img;
-  width: 1280px;
-  padding: 137px 85px;
-}
-
-.hero__title {
-  font-family: "Fraunces";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 48px;
-  color: #fefcf7;
-  margin: 0px;
-}
