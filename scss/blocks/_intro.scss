@@ -21,15 +21,15 @@
 
 .intro__container {
   background-image: url(../img/intro-img.jpg);
-  @include bg-img;
-  width: 1280px;
-  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 117px 100px;
   padding-top: 20px;
 }
 
 .intro__content {
-  margin: 117px 85px;
-  width: 495px;
+  max-width: 495px;
 }
 
 .intro__crate-plan {
@@ -44,5 +44,52 @@
   only screen and (min-resolution: 2dppx) {
   .intro__container {
     background-image: url(../img/intro-img@2x.jpg);
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .intro__container {
+    background-image: url(../img/intro-tablet.png);
+    padding: 104px 73px;
+  }
+
+  .intro__content {
+    width: 400px;
+  }
+
+  .intro__title {
+    width: 329px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .intro__discription {
+    width: 398px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .intro__container {
+    background-image: url(../img/intro-mobile.jpg);
+    padding: 100px 24px;
+  }
+
+  .intro__content {
+    width: 280px;
+    text-align: center;
+  }
+
+  .intro__title {
+    width: 279px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .intro__discription {
+    width: 279px;
+    font-size: 15px;
+    line-height: 25px;
   }
 }
